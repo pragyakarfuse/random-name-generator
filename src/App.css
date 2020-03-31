@@ -1,0 +1,49 @@
+:root {
+  --common-font: 'Roboto', sans-serif;
+  --broccoli-green: #008535;
+  --kalo-mato: #454545;
+  --ripe-mushroom: #aaaaaa;
+}
+
+body {
+  font-family: var(--common-font);
+  margin: 0;
+  color: var(--kalo-mato);
+}
+
+.custom-button {
+  padding: 7px 2px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: var(--broccoli-green);
+  border-bottom: 1px solid var(--broccoli-green);
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+.landing-pre-text {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--ripe-mushroom);
+  letter-spacing: 1px;
+}
+
+.landing-title {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 20px 0px 30px 0px;
+}
